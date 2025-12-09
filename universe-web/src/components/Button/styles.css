@@ -1,0 +1,32 @@
+.button {
+  width: 340px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  border-radius: 8px;
+  border: 1px solid #8A51FC;
+
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.button-label {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.button-img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.button--transparent {
+  background-color: transparent !important;
+  border: 1px solid white !important;
+}

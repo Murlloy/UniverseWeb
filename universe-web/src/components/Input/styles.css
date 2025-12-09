@@ -1,0 +1,28 @@
+
+input {
+    height: 50px;
+    border: 1px "#8A51FC" solid;
+    border-radius: 8px;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid white;
+    padding-left: 15px;
+    width: 340px;
+    color: white;
+    transition: all ease 0.2s;
+}
+
+input:hover {
+    border: #8A51FC 1px solid;
+    color: #8A51FC;
+}
+
+
+input::placeholder {
+
+    font-weight: bold;
+    color: white;
+    font-size: 14px;
+
+}
+
