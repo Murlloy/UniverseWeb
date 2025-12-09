@@ -6,7 +6,7 @@ import Logo from "../../assets/logo-img.png"
 import LogoGoogle from "../../assets/google-icon.png"
 import LogoX from "../../assets/x-icon.png"
 
-import "./styles.css"
+import "../LoginPage/styles.css"
 
 export default function LoginPage() {
 

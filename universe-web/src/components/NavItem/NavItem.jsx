@@ -6,7 +6,7 @@ export default function NavItem({label, linkImage}) {
 
     return (
 
-        <a>
+        <a className="nav-a">
                 <img src={linkImage} alt="" />
                 <p>{label}</p>
         </a>

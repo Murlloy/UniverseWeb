@@ -1,5 +1,5 @@
 
-a {
+.nav-a {
     text-decoration: none;
     color: white;
     background-color: #111111;
@@ -12,10 +12,10 @@ a {
     align-items: center;
 }
 
-a.active {
+.nav-a.active {
     background-color: #1D1D1D;
 }
 
-a:hover {
+.nav-a:hover {
     background-color: #1D1D1D;
 }
