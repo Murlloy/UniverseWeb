@@ -1,0 +1,21 @@
+
+a {
+    text-decoration: none;
+    color: white;
+    background-color: #111111;
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    border-radius: 3px;
+    gap: 18px;
+    transition: all ease .2s;
+    align-items: center;
+}
+
+a.active {
+    background-color: #1D1D1D;
+}
+
+a:hover {
+    background-color: #1D1D1D;
+}
