@@ -5,6 +5,8 @@ import Input from "../../components/Input/Input"
 import Button from "../../components/Button/Button"
 
 import CarImage from "../../assets/CarImage.png"
+import EntryImage from "../../assets/EntryImage.png"
+import BackImage from "../../assets/back-image.png"
 
 import "./styles.css"
 
@@ -29,6 +31,8 @@ export default function EntryPage() {
                             <Input label="Estado" />
                             <Button label="Criar" color={"#8A51FC"}/>
                         </section>
+                        <img src={EntryImage} alt="" className="entry-image" />
+                        <img src={BackImage} alt="" className="back-image"/>
                     </article>
                 </section>
 

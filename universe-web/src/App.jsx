@@ -5,6 +5,7 @@ import LoginPage from './layouts/LoginPage/LoginPage'
 import RegisterPage from "./layouts/RegisterPage/RegisterPage"
 import AppPage from './layouts/AppPage/AppPage'
 import EntryPage from './layouts/EntryPage/EntryPage'
+import MapPage from './layouts/MapPage/MapPage'
 
 function App() {
 
@@ -13,7 +14,8 @@ function App() {
       {/* <LoginPage/> */}
       {/* <RegisterPage/> */}
       {/* <AppPage /> */}
-      <EntryPage/>
+      {/* <EntryPage/> */}
+      <MapPage/>
     </>
   )
 }

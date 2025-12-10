@@ -1,5 +1,5 @@
 
-input {
+.input {
     height: 50px;
     border: 1px "#8A51FC" solid;
     border-radius: 8px;
@@ -7,18 +7,23 @@ input {
     outline: none;
     border: 1px solid white;
     padding-left: 15px;
-    width: 340px;
+    width: 100%;
     color: white;
     transition: all ease 0.2s;
 }
 
-input:hover {
+.input:hover {
+    border: #8A51FC 1px solid;
+    color: #8A51FC;
+}
+
+.input:focus {
     border: #8A51FC 1px solid;
     color: #8A51FC;
 }
 
 
-input::placeholder {
+.input::placeholder {
 
     font-weight: bold;
     color: white;

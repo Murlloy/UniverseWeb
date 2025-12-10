@@ -1,0 +1,23 @@
+
+.card-map {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #282828;
+    border-radius: 12px;
+    max-width: 250px;
+    cursor: pointer;
+    transition: .2s all ease;
+    border: 2px solid transparent;
+}
+
+.card-map:hover {
+    background-color: #1c1e20;
+    border: 2px solid #8A51FC
+}
+
+.card-map section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

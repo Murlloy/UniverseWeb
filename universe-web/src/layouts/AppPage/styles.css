@@ -18,6 +18,7 @@
     padding: 5% 2%;
     text-align: end;
     gap: 40px;
+    position: relative;
 }
 
 .cards {

@@ -1,0 +1,27 @@
+
+.vagas-container {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 1050px;
+    justify-content: center;
+}
+
+.map-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: auto;
+    align-self: center;
+    background-color: #1B1B1B;
+    height: 90%;
+    padding: 27px;
+    border-radius: 8px;
+}
+
+.map-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}

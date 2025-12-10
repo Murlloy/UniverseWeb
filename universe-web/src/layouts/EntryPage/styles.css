@@ -8,11 +8,24 @@
 }
 
 .inputs-entry {
-    width: 80%;
+    width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
     align-self: center;
     flex-direction: column;
     gap: 20px;
+    min-width: 500PX;
+}
+
+.entry-image {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.back-image {
+    position: absolute;
+    left: 35px;
+    top: 35px;
 }
